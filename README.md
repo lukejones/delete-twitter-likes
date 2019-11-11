@@ -32,4 +32,4 @@ Feel free to put in a GitHub issue or pull request to resolve it.
 
 ## Thanks
 
-I grabbed this from a comment on [this post](https://www.techjunkie.com/delete-all-twitter-likes/#comment-47485)
+I grabbed this from a comment on [this article](https://www.techjunkie.com/delete-all-twitter-likes/#comment-47485) and fixed it to work with a copy-and-paste from browser. This repo is for me to remember it easily.
