@@ -12,9 +12,9 @@ Use this basic script to delete all your likes on Twitter.
 
 ```
 setInterval(function(){
-var divs = document.getElementsByTagName(‘div’)
-var arr = Array.prototype.slice.call( divs)
-var hearts = arr.filter(x => x.getAttribute(‘data-testid’) == ‘unlike’)
+var divs = document.getElementsByTagName('div')
+var arr = Array.prototype.slice.call(divs)
+var hearts = arr.filter(x => x.getAttribute('data-testid') == 'unlike')
 hearts.forEach(h => h.click())
 window.scrollTo(0, document.body.scrollHeight ||document.documentElement.scrollHeight);
 },1000);
