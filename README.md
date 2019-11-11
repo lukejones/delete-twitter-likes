@@ -24,4 +24,12 @@ window.scrollTo(0, document.body.scrollHeight ||document.documentElement.scrollH
 
 ### Twitter says I still have likes
 
-Depending on the age of the likes, Twitter may do a soft archive of 
+Twitter may show you have any number of likes even if the likes tab says **You don’t have any likes yet**. It can take days, months, or years for older tweets to reappear in that tab, so just be patient and wait for them to come back.
+
+### The script doesn't work!
+
+Feel free to put in a GitHub issue or pull request to resolve it.
+
+## Thanks
+
+I grabbed this from a comment on [this post](https://www.techjunkie.com/delete-all-twitter-likes/#comment-47485)
