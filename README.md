@@ -28,7 +28,9 @@ Twitter may show you have any number of likes even if the likes tab says **You d
 
 ### The script doesn't work!
 
-Twitter may [rate limit](https://www.cloudflare.com/learning/bots/what-is-rate-limiting) you after deleting a number of likes automatically. The only resolution is to wait a little while to run the script again. If you find any other bugs, please submit an issue or pull request for a fix.
+Twitter is [rate limited to 900 requests every 15 minutes](https://developer.twitter.com/en/docs/twitter-api/rate-limits), so you will start getting an error after 900 requests. Refresh the page to pause the script, then resubmit the script after 15 minutes.
+
+If you find any other bugs, please submit an issue or pull request for a fix.
 
 ## Thanks
 
