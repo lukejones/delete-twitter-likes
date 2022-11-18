@@ -23,5 +23,5 @@ setIntervalX(function () {
     var hearts = arr.filter(x => x.getAttribute('data-testid') == 'unlike')
     hearts.forEach(h => h.click())
     window.scrollTo(0, document.body.scrollHeight ||document.documentElement.scrollHeight);
-  }, 1000, 900);
-}, 900000, 10);
+  }, 1000, 300);
+}, 300000, 10);
